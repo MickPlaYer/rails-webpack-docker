@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app: &app
+    build: .
+    image: rails-webpack-docker:latest
+    command: bundle exec rails server
+    volumes:
+      - ./public/packs:/usr/src/app/public/packs
+    ports:
+      - '3000:3000'
+  webpack:
+    <<: *app
+    command: bin/webpack-dev-server
+    ports:
+      - '3035:3035'
