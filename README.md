@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Running rails and webpack-dev-server in each docker container.
 
-Things you may want to cover:
+View the [changes].
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[changes]: https://github.com/MickPlaYer/rails-webpack-docker/compare/377ec379c77f41607b2dc4e59d9960a1be7f4ec6...01fe82b08e82f4de74a55ef4a70e191b135d3b96
